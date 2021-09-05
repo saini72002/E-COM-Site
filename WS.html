@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="Cart_details.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE E-commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="WS.css">
+<link rel="stylesheet" type="text/css"href="cart.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <a href="New Text Document.html"> <h2>SAE</h2></a>
+        <nav>
+            <ul>
+                <li><a href="MS.html">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <form action="">
+                <input type="text" class="search-bar" placeholder="Search for product, brand and  more....." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="icons">
+            <i class="fa fa-shopping-cart" onclick="showCart()"></i>
+        <!-- <i class="fa fa-heart"></i> -->
+        </div>
+    </div>
+</div>
+<div id="Cart">
+<div class="small-container">
+    <a href="#" ><div class="filter-icon">
+        <i class="fa fa-filter"></i>
+        <span>Filter</span>
+    </div></a>
+    <h3>WOMEN</h3>
+</div>
+    <div class="row" >
+        <div class="col-4">
+            <img src="images/women-1.jpg" alt="" class="product-image">
+            <div class="discription">
+                <h4>women kurta 8</h4>
+                <i class="fa fa-heart"></i>
+
+            </div>
+            <p>Rs. 760 <s style="color: #767676;">Rs. 1600</s> <span style="color: red;"> (50% off)</span> </p>
+            <p><button onclick='addItem("women-1.jpg","women kurta 8",760)'>Add to Cart</button></p>
+        </div>
+        <div class="col-4">
+            <img src="images/women-2.jpg" alt="" class="product-image">
+            <div class="discription">
+                <h4>women kurta 1</h4>
+                <i class="fa fa-heart"></i>
+            </div>
+            <p>Rs. 760 <s style="color: #767676;">Rs. 1600</s> <span style="color: red;"> (50% off)</span> </p>
+            <p><button onclick='addItem("women-2.jpg","women kurta 1",760)'>Add to Cart</button></p>
+        </div>
+        <div class="col-4">
+            <img src="images/women-3.jpg" alt="" class="product-image">
+            <div class="discription">
+                <h4>women kurta 2  </h4>
+                <i class="fa fa-heart"></i>
+            </div>
+            <p>Rs. 760 <s style="color: #767676;">Rs. 1600</s> <span style="color: red;"> (50% off)</span> </p>
+            <p><button onclick='addItem("women-3.jpg","women kurta 2",760)'>Add to Cart</button></p>
+        </div>
+        <div class="col-4">
+            <img src="images/women-4.jpg" alt="" class="product-image">
+            <div class="discription">
+                <h4>women kurta 3</h4>
+                <i class="fa fa-heart"></i>
+            </div>
+            <p>Rs. 760 <s style="color: #767676;">Rs. 1600</s> <span style="color: red;"> (50% off)</span> </p>
+            <p><button onclick='addItem("women-4.jpg","women kurta 3",760)'>Add to Cart</button></p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-4">
+            <img src="images/women-5.jpg" alt="" class="product-image">
+            <div class="discription">
+                <h4>women kurta 4</h4>
+                <i class="fa fa-heart"></i>
+
+            </div>
+            <p>Rs. 760 <s style="color: #767676;">Rs. 1600</s> <span style="color: red;"> (50% off)</span> </p>
+            <p><button onclick='addItem("women-5.jpg","women kurta 4",760)'>Add to Cart</button></p>
+        </div>
+        <div class="col-4">
+            <img src="images/women-6.jpg" alt="" class="product-image">
+            <div class="discription">
+                <h4>women kurta 5</h4>
+                <i class="fa fa-heart"></i>
+
+            </div>
+            <p>Rs. 760 <s style="color: #767676;">Rs. 1600</s> <span style="color: red;"> (50% off)</span> </p>
+            <p><button onclick='addItem("women-6.jpg","women kurta 5",760)'>Add to Cart</button></p>
+        </div>
+        <div class="col-4">
+            <img src="images/women-7.jpg" alt="" class="product-image">
+            <div class="discription">
+                <h4>women kurta 6</h4>
+                <i class="fa fa-heart"></i>
+
+            </div>
+            <p>Rs. 760 <s style="color: #767676;">Rs. 1600</s> <span style="color: red;"> (50% off)</span> </p>
+            <p><button onclick='addItem("women-7.jpg","women kurta 6",760)'>Add to Cart</button></p>
+        </div>
+        <div class="col-4">
+            <img src="images/women-8.jpg" alt="" class="product-image">
+            <div class="discription">
+                <h4>women kurta 7</h4>
+                <i class="fa fa-heart"></i>
+
+            </div>
+            <p>Rs. 760 <s style="color: #767676;">Rs. 1600</s> <span style="color: red;"> (50% off)</span> </p>
+            <p><button onclick='addItem("women-8.jpg","women kurta 7",760)'>Add to Cart</button></p>
+        </div>
+    </div>
+</div>
+
+
+    
+</body>
+</html>
